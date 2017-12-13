@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#
+# 12/13/2017 Rene H
+#
 function rake_assets_precompile() {
   [[ "$DISABLE_ASSET_COMPILATION" == "true" ]] && return
   [ ! -f Gemfile ] && return
